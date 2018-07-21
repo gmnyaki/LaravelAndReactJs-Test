@@ -1,0 +1,52 @@
+body {
+  margin: 10px;
+  padding: 0px;
+  font-family: sans-serif;
+  
+
+}
+.logo {
+	position: absolute;
+	top: 10%; left: 15px;
+}
+
+header {
+	position: relative;
+	display: block;
+	width: 100%;
+	height: 90px;
+	background: #000;
+	color: orange;
+}
+nav, nav ul, nav ul li {
+	margin:0px;
+	padding: 0px 10px;
+}
+
+nav {
+	position: absolute;
+	top: 5%; right: 15px;
+	
+}
+ul li a {
+	color: orange;
+}
+ul li {
+	list-style-type: none;
+	display: inline-block;
+	margin-right: 10px;
+}
+input[type=text] {
+    width: 40%;
+    padding: 12px 20px 12px 40px;
+    background-color: white;
+    border-radius: 4px;
+    font-size: 18px;
+    border: 2px solid #ccc;
+}
+h3 {
+	color: #6400E4;
+}
+.searchResult {
+	display: inline-block;
+}
